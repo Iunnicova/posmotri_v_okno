@@ -13,7 +13,7 @@ html {
 	block-size: 100%;
 	margin: 0 auto;
 	color: #fff;
-	font-family: "Fira Sans Condensed", sans-serif;
+	font-family: 'Fira Sans Condensed', sans-serif;
 	font-size: 18px;
 	background-color: #1b1919;
 }
@@ -47,28 +47,33 @@ button:focus {
 	justify-content: space-between;
 	align-items: flex-end;
 	gap: 30px;
-	margin: 0 auto;
-	box-sizing: border-box;
+	/* margin: 0 auto; */
+	/* box-sizing: border-box; */
 	padding: 133px 30px;
-	width: 100%;
+	
 }
 
 .result {
-	position: relative;
-	max-height: 456px;
-	max-width: 711px;
+	display: block;
+	min-height: 456px;
+	min-width: 711px;
 }
 
 .result__video-container {
 	inline-size: 711px;
 	block-size: 386px;
 	margin-bottom: 16px;
+	width: 0 auto;
+
+
 }
+
 
 .result__video {
 	object-fit: cover;
 	height: 100%;
 	width: 100%;
+
 }
 
 .search-form {
@@ -310,6 +315,7 @@ max-height: 298px;
 	max-height: 100%;
 	object-fit: cover;
 }
+
 .more-button {
 	width: 399px;
 	border: 1px solid #ffffff;
