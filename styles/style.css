@@ -13,7 +13,7 @@ html {
 	block-size: 100%;
 	margin: 0 auto;
 	color: #fff;
-	font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: "Fira Sans Condensed", sans-serif;
 	font-size: 18px;
 	background-color: #1b1919;
 }
@@ -50,13 +50,12 @@ button:focus {
 	margin: 0 auto;
 	box-sizing: border-box;
 	padding: 133px 30px;
-
 }
 
 .result {
 	display: block;
-	min-height: 456px;
-	min-width: 711px;
+	height: 456px;
+	width: 711px;
 }
 
 .result__video-container {
@@ -70,7 +69,6 @@ button:focus {
 	object-fit: cover;
 	height: 100%;
 	width: 100%;
-
 }
 
 .search-form {
@@ -85,7 +83,7 @@ button:focus {
 }
 
 .search-form__fieldset-title {
-	font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: "Fira Sans Condensed", sans-serif;
 	text-align: left;
 	padding-bottom: 5px;
 	font-size: 18px;
@@ -98,12 +96,12 @@ button:focus {
 	display: inline-block;
 	appearance: none;
 	text-align: start;
-	font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: "Fira Sans Condensed", sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 22px;
 	letter-spacing: 0em;
-	color: #FFFFFFB2;
+	color: #ffffffb2;
 	width: fit-content;
 }
 
@@ -157,7 +155,7 @@ button:focus {
 
 .search-form__checkbox[type="checkbox"]+span {
 	cursor: pointer;
-	border: 1px solid #FFFFFFB2;
+	border: 1px solid #ffffffb2;
 	height: 19px;
 	width: 19px;
 }
@@ -165,7 +163,7 @@ button:focus {
 .search-form__checkbox:focus-visible,
 .search-form__checkbox:checked+span {
 	background-color: #fff;
-	outline: 1px solid #FFFFFFB2;
+	outline: 1px solid #ffffffb2;
 	outline-offset: 1px;
 	padding: 1px;
 }
@@ -173,20 +171,20 @@ button:focus {
 .search-form__pseudo-checkbox:focus-visible,
 .search-form__pseudo-checkbox:active {
 	background-color: #fff;
-	outline: 1px solid #FFFFFFB2;
+	outline: 1px solid #ffffffb2;
 	outline-offset: 1px;
 	padding: 1px;
 }
 
 .button {
-	font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: "Fira Sans Condensed", sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 22px;
 	letter-spacing: 0em;
 	text-align: center;
 	background: transparent;
-	color: #FFFFFF;
+	color: #ffffff;
 	cursor: pointer;
 	height: 34px;
 }
@@ -207,21 +205,20 @@ button:focus {
 }
 
 .content__details {
+	min-height: 534px;
 	height: 100%;
-	max-width: 399px;
 	width: 100%;
+	max-width: 399px;
 }
 
 .title {
-	font-family: 'Oswald', sans-serif;
+	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 	font-size: 75px;
 	font-weight: 700;
 	line-height: 70px;
 	letter-spacing: 0em;
 	color: #ffffff;
-	max-width: 260px;
-	min-height: 210px;
 	margin-bottom: 26px;
 }
 
@@ -276,29 +273,32 @@ button:focus {
 }
 
 .content__video-card-title {
-	font-family: 'Oswald', sans-serif;
+	font-family: "Oswald", sans-serif;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 30px;
 	letter-spacing: 0em;
 	text-align: start;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #ffffff;
 	padding-top: 2px;
 	margin-bottom: 4px;
+	padding-right: 20px;
+	width: 200px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
 
 .content__video-card-description {
-	font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: "Fira Sans Condensed", sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 16px;
 	letter-spacing: 0em;
 	text-align: start;
-	color: #FFFFFF;
+	color: #ffffff;
 	object-fit: cover;
+	padding-right: 20px;
 }
 
 .content__video-card-thumbnail {
