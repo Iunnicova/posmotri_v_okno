@@ -47,8 +47,8 @@ button:focus {
 	justify-content: space-between;
 	align-items: flex-end;
 	gap: 30px;
-	/* margin: 0 auto; */
-	/* box-sizing: border-box; */
+	margin: 0 auto;
+	box-sizing: border-box;
 	padding: 133px 30px;
 	
 }
@@ -63,11 +63,7 @@ button:focus {
 	inline-size: 711px;
 	block-size: 386px;
 	margin-bottom: 16px;
-	width: 0 auto;
-
-
 }
-
 
 .result__video {
 	object-fit: cover;
